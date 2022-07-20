@@ -1,6 +1,8 @@
 body {
+    font-family: roboto;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -10,13 +12,52 @@ body {
     align-items: center;
 }
 
-
-.header,
-.hero {
+.hero,
+.header {
     background-color: #1F2937;
+    padding-bottom: 100px;
 }
 
-.dummy-pic {
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    display: flex;
+    background-color: #3882F6;
+    width: 120px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-logo {
+    width: 400px;
+    height: auto;
+}
+
+.hero-sub-text  {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
     height: 50px;
     width: auto;
     margin-right: auto;
