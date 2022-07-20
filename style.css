@@ -87,10 +87,29 @@ h2 {
     flex-direction: column;
     width: 200px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .info-pic {
     border: rgba(235, 28, 28, 0.89) solid 3px;
     border-radius: 15px;
     margin-bottom: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 130px 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.autor {
+    align-self: flex-end;
+    font-weight: bold;
 }
